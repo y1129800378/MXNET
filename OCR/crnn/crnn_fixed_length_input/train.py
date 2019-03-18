@@ -1,5 +1,3 @@
-""" An example of using WarpCTC loss for an OCR problem using LSTM and CAPTCHA image data"""
-
 from __future__ import print_function
 
 import argparse
