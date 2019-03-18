@@ -21,8 +21,8 @@ crnn算法结构是CNN + 双向lstm + CTC . 本质是一个识别算法。即：
 * mxnet 1.2.0及以上
 <a name="736947cb"></a>
 #### 模型训练方法
-step1:<br />  先把下载的训练数据放在crnn_fixed_length_input/Train_data文件夹，<br /> step2:<br />  预训练模型放在crnn_fixed_length_input/checkpoint文件夹（从0开始训练的可以忽略这步）   <br />
-step3:  <br /> 训练 <br />
+step1:<br />  * 先把下载的训练数据放在crnn_fixed_length_input/Train_data文件夹，<br /> step2:<br />  * 预训练模型放在crnn_fixed_length_input/checkpoint文件夹（从0开始训练的可以忽略这步）   <br />
+step3:  <br /> * 训练 <br />
 ```shell
 # 从0训练：
 $  python -u train.py --gpu 0 --loss ctc
