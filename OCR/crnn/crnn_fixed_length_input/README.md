@@ -14,7 +14,7 @@ CRNN部分
 提取码：350q
 
 模型训练方法：
-先把下载的训练数据放在Train_data文件夹，预训练模型放在checkpoint文件夹（从0开始训练的可以忽略这步）
+先把下载的训练数据放在crnn_fixed_length_input/Train_data文件夹，预训练模型放在crnn_fixed_length_input/checkpoint文件夹（从0开始训练的可以忽略这步）
 从0训练：
 python -u train.py --gpu 0 --loss ctc
 
