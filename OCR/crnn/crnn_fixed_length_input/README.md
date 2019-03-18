@@ -16,7 +16,7 @@ crnn算法结构是CNN + 双向lstm + CTC . 本质是一个识别算法。即：
 #### 预训练模型
 <br />训练数据地址: [传送门](https://pan.baidu.com/s/1l2nqoPL2KI9HD-9nxQSPag) 提取码:350q
 <a name="158744a8"></a>
-#### 预训练模型
+#### 运行环境
 * 运行环境： python2
 * mxnet 1.2.0及以上
 <a name="736947cb"></a>
