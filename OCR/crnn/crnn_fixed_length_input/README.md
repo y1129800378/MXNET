@@ -32,3 +32,7 @@ $ python -u train.py --gpu 0 --loss ctc --resume checkpoint/mobilenet,10 --prefi
 ```
 
 CTC部分可以使用百度的waper CTC,也可以使用mxnet自带的CTC,建议使用自带CTC可以免去安装等步骤。
+
+#### 模型推理方法
+```shell
+$  python infer.py checkpoint/mobilenet,10 sample.jpg
