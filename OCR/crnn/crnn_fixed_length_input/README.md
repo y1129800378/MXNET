@@ -14,7 +14,7 @@ crnn算法结构是CNN + 双向lstm + CTC . 本质是一个识别算法。即：
   注：目前开源项目为定长输入，而真实业务数据通常为不定长输入，需要使用bucket策略（训练时会自动添加多个结构相似但输入尺寸不同的模型，训练时各个模型共享反传梯度更新），这部分也会在不久开源。
 <a name="a8f55deb"></a>
 #### 预训练模型
-<br />训练数据地址: [传送门](https://pan.baidu.com/s/1l2nqoPL2KI9HD-9nxQSPag) 提取码:350q
+<br />训练数据地址: [传送门](https://pan.baidu.com/s/16Sq1b3zfPJveX45LBwDuPw) 提取码:5rwe
 <a name="158744a8"></a>
 #### 运行环境
 * 运行环境： python2
