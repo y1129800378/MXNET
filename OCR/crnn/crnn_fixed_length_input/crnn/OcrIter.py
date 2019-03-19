@@ -103,7 +103,7 @@ class OCRIter(mx.io.DataIter):
             img = cv2.imread(os.path.join(self.data_path,files))
             img = img_pre(img,self.channel,self.height,self.width)
             imgs.append(img)
-            label_list.append( np.array((int(files[0]),int(files[1]),int(files[2]),int(files[3]))) ) 
+            label_list.append( np.array((int(files[0])+1,int(files[1])+1,int(files[2])+1,int(files[3])+1)) ) 
         return imgs,label_list
     def reset(self,):
          self.point=0
