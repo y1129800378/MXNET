@@ -87,18 +87,6 @@ def lstm_unroll(num_lstm_layer, num_hidden, num_label, loss_type=None):
     Creates an unrolled LSTM symbol for inference if loss_type is not specified, and for training
     if loss_type is specified. loss_type must be one of 'ctc' or 'warpctc'
 
-    Parameters
-    ----------
-    num_lstm_layer: int
-    seq_len: int
-    num_hidden: int
-    num_label: int
-    loss_type: str
-        'ctc' or 'warpctc'
-
-    Returns
-    -------
-    mxnet.symbol.symbol.Symbol
     """
    
     # Create the base (shared between training and inference) and add loss to the end
