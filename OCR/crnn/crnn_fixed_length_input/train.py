@@ -20,8 +20,8 @@ def parse_args():
                         help="Number of CPUs for training [Default 8]. Ignored if --gpu is specified.",
                         type=int, default=8)
     parser.add_argument("--gpu", help="Number of GPUs for training [Default 0]", type=int)
-    parser.add_argument("--prefix", help="Checkpoint prefix [Default 'ocr']", default='checkpoint/ocr')
-    parser.add_argument("--resume", help="Checkpoint resume [Default 'checkpoint/ocr,10']", default=None)
+    parser.add_argument("--prefix", help="Checkpoint prefix [Default 'mobilenet']", default='checkpoint/mobilenet')
+    parser.add_argument("--resume", help="Checkpoint resume [Default 'checkpoint/mobilenet,10']", default=None)
     parser.add_argument("--save_epoch", help="Number of epoch to save model [Default 10]", default=10,type=int)
     return parser.parse_args()
 
