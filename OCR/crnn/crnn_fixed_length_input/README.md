@@ -36,3 +36,15 @@ CTC部分可以使用百度的waper CTC,也可以使用mxnet自带的CTC,建议�
 #### 模型推理方法
 ```shell
 $  python infer.py checkpoint/mobilenet,10 sample.jpg
+
+#### 识别效果
+![图标标题](美图云-视觉技术部 >  > sample.jpg）
+
+```shell
+$  python infer.py checkpoint/mobilenet,10 sample.jpg
+```shell
+```shell
+$  [4, 5, 9, 3]
+```shell
+
+
