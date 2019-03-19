@@ -28,7 +28,7 @@ step3:  <br />  训练 <br />
 $  python -u train.py --gpu 0 --loss ctc
 
 # 加载预训练模型进行训练
-$ python -u train.py --gpu 0 --loss ctc --resume checkpoint/mobilenet,10 --prefix checkpoint/mobilnet
+$ python -u train.py --gpu 0 --loss ctc --resume checkpoint/mobilenet,10 --prefix checkpoint/mobilenet
 ```
 
 CTC部分可以使用百度的waper CTC,也可以使用mxnet自带的CTC,建议使用自带CTC可以免去安装等步骤。
