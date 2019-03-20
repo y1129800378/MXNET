@@ -9,7 +9,7 @@
 现在使用假数据做训练，数据为label长度为4，0~9的数据。 也可以识别汉字，英文等，只需对训练集做改变。
 <a name="8c707d1c"></a>
 #### 预训练模型
-<br />训练数据地址: [传送门](https://pan.baidu.com/s/16Sq1b3zfPJveX45LBwDuPw) 提取码:5rwe
+<br />训练数据地址: [传送门](https://pan.baidu.com/s/1XT84DHeFBCrS5TWyaoKF6A) 提取码:oc26
 <a name="158744a8"></a>
 #### 运行环境
 * 运行环境： python2
